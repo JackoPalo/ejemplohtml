@@ -1,0 +1,339 @@
+
+
+body{
+	
+	padding: 0px;
+	margin: 0px;
+	background-image: url(madera.jpg);
+}	
+	
+header {
+	width: 1000px;
+	height: 500px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #bbbb;
+	margin:0px auto 0px auto;
+	background-image: url(fondFecha.jpg)
+}
+
+
+
+#Botonera1{
+	position: fixed;
+	list-style: none;
+	font-size: 20px;
+	-webkit-transition:all 0.9s ease-out;
+	-moz-transition:all 0.9s ease-out;
+
+	}
+#Botonera1 ul {
+	text-decoration: none;
+	margin: 0px;
+	margin-top: -100px;
+	padding: 0px;
+	list-style: none;
+	width: 1001px;
+
+}
+
+
+
+
+#Botonera ul li{
+	display: inline-block;
+	width: 201px;
+	height: 60px
+	margin:0px;
+	padding: 0px;
+
+}
+#Botonera1 li a{
+	display: block;
+	color: #000;
+	margin: 0px;
+	text-decoration: none;
+	background-color: #F605;
+	font-size: 50px;
+	width: 306.8px;
+	height: 60px;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+	-webkit-transition:all 0.5s ease-out;
+	-moz-transition:all 0.5s ease-out;
+}
+#Botonera1 ul li a{
+	-webkit-transition:all 0.5s ease-out;
+	-moz-transition:all 0.5s ease-out;
+	display: block;
+	color: #000;
+	margin: 0px;
+	text-decoration: none;
+	font-size: 50px;
+	background-color: #F605;
+	width: 306.8px;
+	height: 60px;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+}
+
+#Botonera1 li a:hover {
+	background-color: #000b;
+	color: white;
+}
+
+#Botonera1 ul li a:hover {
+	background-color: #000b;
+	color: white;
+}
+
+#Reloj{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	width: 700px;
+	padding: 0px;
+	
+	
+
+}
+
+header h1{
+	text-align: center;
+	text-shadow: 15px 5px 30px #335;
+	color: #FFF;
+}
+
+#Reloj h1{
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFF;
+	width: 500px;
+	max-height: 200px;
+	text-align: center;
+	font-size: 50px;
+	line-height: 100px;
+	text-shadow: 15px 5px 30px #335;
+	
+}
+
+
+	
+
+
+
+section{
+	width: 1000px;
+	height: 1000px;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F603;
+	position: initial;
+
+}
+.masMenos {
+	width: 400px;
+	display: block;
+	height: 20px;
+	list-style: none;
+	margin: 10px auto 0px auto;
+	text-decoration: none;
+	margin-bottom: -10px;
+}
+.masMenos li{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	
+}
+.masMenos li a{
+	display: block;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #00F;
+	color: white;
+	line-height: 20px;
+	border-radius: 10%;
+
+	
+}
+
+#textoCambiar {
+	padding: 0px;
+	margin:20px auto 30px auto;
+	background-color: #0015;
+	width: 900px;
+	height: 550px;
+	overflow: auto;
+	border: ridge;
+	font-size: 15px;
+}
+
+
+
+
+
+
+#Imagenes_js{
+	margin: 0px auto 0px auto;
+	padding: 10px;
+	width: 900px;
+	height: 200px;
+	background-color: #F002;
+	border-style: double;
+	border-width: 10px;
+	line-height: 320px;
+}
+#Imagenes_js nav{
+	background-color: #00F0;
+	height: 200px;
+	margin: 0px auto 0px auto;
+	width: 875px;
+	padding: 0px;
+}
+.mini{
+	padding: 0px;
+	margin:0px 5px 0px 1.5px;
+	height: 130px;
+	width: 130px;
+	border-style: solid;
+}
+
+
+
+
+#contacto1{
+	padding: 0px;
+	margin: 0px;
+}
+
+#contacto1 ul li{
+	margin-left: -30px;
+}
+
+#contacto1{
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-top:10px;
+	margin-left: 10px;
+	list-style: none;
+	text-align:left;
+
+}
+
+#contacto1 ul li a{
+
+	color: #FFF;
+}
+
+
+#contacto2 {
+	height:100px;
+	padding: 0px;
+	margin: 0px;
+	width: 700px;
+	overflow: hidden;
+	float: right;
+	list-style: none;
+	text-decoration:none;
+	margin-top:-20px;
+	margin-left: -50px;
+	text-align: center;
+}
+#contacto2 ul{
+	display: block;
+	list-style: none;
+}
+
+#contacto2 ul li{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	width: 100px;
+	height:40px;
+}
+#contacto2 ul li a{
+	display: block;
+	text-decoration:none;
+	text-align: center;
+	line-height: 35px;
+	padding: 10px;
+	width: 100px;
+	height: 40px;
+	
+	font-size: 60px;
+	color: #FFF5;
+
+}
+#contacto2 ul li a:hover {
+	color: #FFF;
+	font-size: 50px;
+}
+
+
+.dos{
+	width: 700px;
+}
+
+
+video {
+	padding: 0px;
+	height: 500px;
+	width: 500px;
+	border-radius: 0% 0% 5% 5% ;
+	text-align: center;
+	margin-left: 250px;
+	background-color: #FFFFFF;
+
+}
+audio{
+	width:500px ;
+	height:50px ;
+	margin-left: 250px;
+}
+#Formulario{
+	width: 500px;
+	height: 900px;
+	margin: auto;
+	background-color: #00F3;
+	border-radius: 10%;
+	border-style: solid; 	
+}
+
+#Formulario ul{
+	font-family: 'Staatliches', serif;
+	margin: 2em;
+	margin-right:  4em;
+}
+#Formulario	label{
+		font-size: 1.3em;
+		margin: 1em;
+		display: block;
+	}
+#Formulario input{
+			font-size: 1.3em;
+			margin: 1em;
+}
+#Formulario textarea{
+	font-size: 1.3em;
+	margin: 1em;
+	display: block;
+}
+
+footer{
+	width: 1000px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000b;
+	color: #FFF;
+}

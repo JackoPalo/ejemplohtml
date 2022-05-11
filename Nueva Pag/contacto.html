@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trabajos</title>
+    <meta charset="utf-8"; http-equiv="content-type">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Eczar|Pacifico|Staatliches" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fuente.css">
+    <link rel="Stylesheet" type="text/css" href="Index_style.css">
+    <script type="text/javascript" src="javee.js"></script>
+  </head>
+  <body class="clasita">
+  <header>
+<nav id="Botonera1">
+      <li><a href="#" style="width: 80px;" onclick="mostrarONoMenu('Menu')"><span class="icon-menu"></span></a></li>
+    <ul id="Menu" style="display: none;">
+        <li><a href="index.html" "><span class="icon-home"></span></a></li>
+            <li><a href="Trabajos.html"  ><span class="icon-film"></span></a></li>
+            <li><a href="Contacto.html"  ><span class="icon-profile"></span></a></li>
+      </ul>
+    </nav>
+    <div id="Reloj">
+
+        <script type="text/javascript">
+          Horario()
+        </script>
+
+    </div>
+  </header>
+
+  <section >
+  	<div id="ParrafoC">
+	<form onsubmit="return validarFormu();" method="POST" id="Formulario" >
+		  	
+		  		<label>nombre/s: </label> 
+		  		<input type="text" id="nombre" name="nombre">
+		  		<label>Apellido/s </label> 
+		  		<input type="text" id= "apellido" name="apellido"></label>
+		  		<label>E-mail:</label> 
+		  		<input type="email" id="email" name="email"></label>
+		  		<label>Edad:</label>
+		  		<input type="number" id="Edad" name="Edad">
+		  		<label>Consulta</label> 
+		  		<textarea id="Consulta" rows="5" cols="26" name="Consulta"></textarea>
+          <br>
+		  		<input type="submit" value="validar">
+		  	
+  	</form>
+  	</div>
+  </section>
+  <footer>
+  	<div>
+  		<nav id="contacto1">
+  			<h4>Formas de Contacto</h4>
+  			<ul>
+  				<li>E-mail:nachopalo1412@gmail.com</li>
+  				<li>Nro de telefono:XXXXXXXXX</li>
+  			</ul>
+  			<H4>Gracias por su visita!</H4>
+  		</nav>
+  		<nav id="contacto2">
+  		<ul>
+  			<li><a href="https://www.youtube.com/"><span class="icon-youtube"></span></a></li>
+  			<li><a href="https://www.instagram.com/?hl=es-la"><span class="icon-github"></span></a></li>
+  			<li><a href="https://es-la.facebook.com/"><span class="icon-twitter"></span></a></li>
+  			<li><a href="https://es-la.facebook.com/"><span class="icon-facebook2"></span></a></li>
+  			<li><a href="https://es-la.facebook.com/"><span class="icon-linkedin"></span></a></li>
+
+  		</ul>
+  		</nav>
+  	</div>
+
+  </footer>
+</body>
+</html>
